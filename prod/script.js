@@ -4,6 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = require("fs");
 const argv = process.argv.splice(2);
 const ReadFile = (path) => {
+    // Synchronous function, i.e. this blocks the event loop.
     const data = (0, fs_1.readFileSync)(path, { encoding: 'utf-8' });
     const lines = data.split('\n');
     if (lines[lines.length - 1] === '')
