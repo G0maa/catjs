@@ -1,0 +1,22 @@
+{
+  "name": "catjs",
+  "version": "1.0.0",
+  "description": "Unix CLI cat but in JS/TS.",
+  "main": "script.ts",
+  "directories": {
+    "test": "test"
+  },
+  "bin": "./prod/script.js",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "tsc && node prod/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "g0maa",
+  "license": "ISC"
+}
