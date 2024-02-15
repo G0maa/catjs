@@ -1,5 +1,5 @@
 {
-  "name": "catjs",
+  "name": "@g0maa/catjs",
   "version": "1.0.0",
   "description": "Unix CLI cat but in JS/TS.",
   "main": "script.ts",
