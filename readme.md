@@ -1,3 +1,5 @@
+![how to use](./how_to_use.gif)
+
 # But why?
 
 - See [Conding Challenges](https://codingchallenges.fyi/challenges/challenge-cat).

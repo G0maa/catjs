@@ -1,13 +1,18 @@
 {
   "name": "@g0maa/catjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unix CLI cat but in JS/TS.",
   "main": "script.ts",
-  "repository": "github:g0maa/catjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g0maa/catjs.git"
+  },
   "directories": {
     "test": "test"
   },
-  "bin": "./prod/script.js",
+  "bin": {
+    "catjs": "prod/script.js"
+  },
   "devDependencies": {
     "@types/node": "^20.11.17",
     "prettier": "^3.2.5",
