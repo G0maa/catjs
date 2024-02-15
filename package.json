@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Unix CLI cat but in JS/TS.",
   "main": "script.ts",
+  "repository": "github:g0maa/catjs",
   "directories": {
     "test": "test"
   },
@@ -18,5 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "g0maa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@g0maa/catjs": "^1.0.0"
+  }
 }
